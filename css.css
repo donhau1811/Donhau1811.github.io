@@ -1,0 +1,67 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
+}
+/*--- navigation bar ---*/
+.navbar {
+  background:#40e0d0;
+}
+.nav-link,
+.navbar-brand {
+  color: #ff9966 ;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*
+anchors are inline so you need ot make them block to go full width
+*/
+.carousel-item a {
+  display: block;
+  width:100%;
+}
+.carousel-inner img {
+width: 100vw;
+   height: 100vh;
+   object-fit: contain;
+        object-position: 50% 50%;
+        max-width:100%;
+ }
+ .contact-form{
+  margin: 6em 0;
+  position: relative;
+ }
+
+ .contact-form h1{
+  padding:2em 1px;
+  color: #F97300;
+ }
+ .contact-form .right{
+  max-width: 600px;
+ }
+ .contact-form .right .btn-secondary{
+  background:  #F97300;
+  color: #fff;
+  border:0;
+ }
+ .contact-form .right .form-control::placeholder{
+  color: #888;
+  font-size: 16px;
+ }
