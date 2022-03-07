@@ -90,3 +90,15 @@ anchors are inline so you need ot make them block to go full width
   background-color: #2ecc71;
   text-align: center;
 }
+
+/* About me pic */
+#pic1 {
+  padding: 30px;
+transform: scale(1);
+transition: all 0.5s;
+margin: auto;
+}
+
+#pic1:hover {
+  transform: scale(1.1);
+}
