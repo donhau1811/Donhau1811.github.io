@@ -5,11 +5,11 @@ body {
 }
 /*--- navigation bar ---*/
 .navbar {
-  background:#95a1a0;
+  background: #2ecc71;
 }
 .nav-link,
 .navbar-brand {
-  color: #ff6666 ;
+  color: #c0392b;
   cursor: pointer;
 }
 .nav-link {
@@ -29,6 +29,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+
 
 /*
 anchors are inline so you need ot make them block to go full width
