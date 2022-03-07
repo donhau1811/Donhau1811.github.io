@@ -5,11 +5,11 @@ body {
 }
 /*--- navigation bar ---*/
 .navbar {
-  background:#40e0d0;
+  background:#95a1a0;
 }
 .nav-link,
 .navbar-brand {
-  color: #ff9966 ;
+  color: #ff6666 ;
   cursor: pointer;
 }
 .nav-link {
@@ -38,12 +38,12 @@ anchors are inline so you need ot make them block to go full width
   width:100%;
 }
 .carousel-inner img {
-width: 100vw;
-   height: 100vh;
-   object-fit: contain;
-        object-position: 50% 50%;
-        max-width:100%;
- }
+  width: 100vw;
+     height: 80vh;
+     object-fit: contain;
+          object-position: 50% 50%;
+          max-width:100%;
+   }
  .contact-form{
   margin: 6em 0;
   position: relative;
