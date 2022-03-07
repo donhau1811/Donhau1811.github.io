@@ -3,19 +3,25 @@ body {
   margin: 0;
   background: #f2f6e9;
 }
+
+#text {
+  font-family: Monserrat;
+  font-size: large;
+}
+
 /*--- navigation bar ---*/
 .navbar {
   background: #2ecc71;
 }
 .nav-link,
 .navbar-brand {
-  color: #c0392b;
+  color: #ecf0f1;
   cursor: pointer;
 }
 .nav-link {
   margin-right: 1em !important;
 }
-.nav-link:hover {
+.nav-link:hover, .navbar-brand:hover {
   color: #000;
 }
 .navbar-collapse {
